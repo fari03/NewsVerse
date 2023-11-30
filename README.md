@@ -1,4 +1,4 @@
-# NewsVerse - Unfolding Today's Stories, Your Way
+# NewsVerse - Your Window To The World
 
 Welcome to NewsVerse, an easy-to-build news website project. With a focus on simplicity and functionality, NewsVerse allows you to create a news website that delivers the latest updates to your audience. This project is built using HTML, CSS, JavaScript, and leverages the news API from newsapi.org to provide real-time news content.
 
