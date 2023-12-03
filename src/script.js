@@ -4,12 +4,12 @@ const optionsContainer = document.querySelector(".options-container");
 // "in" stands for India
 const country = "in";
 const options = [
-  "general",
-  "entertainment",
-  "health",
-  "science",
-  "sports",
-  "technology",
+  "General",
+  "Entertainment",
+  "Health",
+  "Science",
+  "Sports",
+  "Technology",
 ];
 
 //100 requests per day
@@ -54,7 +54,7 @@ const selectCategory = (e, category) => {
   options.forEach((element) => {
     element.classList.remove("active");
   });
-  requestURL = `https://newsapi.org/v2/top-headlines?country=${country}&category=${category}&apiKey=${apiKey}`;
+  requestURL = `https://newsapi.org/v2/top-headlines?country=in&apiKey=f11bf422a32e46abaff2beb477d1449f`;
   e.target.classList.add("active");
   getNews();
 };
@@ -75,6 +75,6 @@ const init = () => {
 };
 
 window.onload = () => {
-  requestURL = `https://newsapi.org/v2/top-headlines?country=${country}&category=general&apiKey=${apiKey}`;
+  requestURL = `https://newsapi.org/v2/top-headlines?country=in&apiKey=f11bf422a32e46abaff2beb477d1449f`;
   init();
 };
